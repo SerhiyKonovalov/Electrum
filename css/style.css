@@ -71,7 +71,7 @@ h6 {
   font-size: inherit
 }
 body {
-  background: #0f0e0e
+  background: #43496b
 }
 .lock body {
   overflow: hidden;
@@ -270,7 +270,7 @@ body {
   transition: all .2s
 }
 .footer__link:hover {
-  color: #3468bb;
+  color: #58f;
   text-decoration: underline
 }
 .hero {
@@ -302,7 +302,7 @@ body {
   margin-bottom: .625rem
 }
 .slider-main {
-  background: #1f2324;
+  background: #282f55;
   padding-block: 3.75rem;
   height: 41.25rem
 }
@@ -628,7 +628,8 @@ code {
   margin-bottom: 1.875rem
 }
 .impressum__title {
-  font-style: normal
+  font-style: normal;
+  margin-bottom: .3125rem
 }
 .disclaimer {
   padding-block: 4.0625rem 3.75rem
@@ -643,4 +644,41 @@ code {
 .disclaimer__text a:hover {
   color: #09f;
   text-decoration: underline
+}
+.error-page {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center
+}
+.error-page__content {
+  padding: 6.25rem .9375rem;
+  text-transform: uppercase;
+  color: #000
+}
+.error-page__title {
+  font-size: 2.5rem;
+  line-height: normal;
+  font-weight: 600
+}
+.error-page__title:not(:last-child) {
+  margin-bottom: 1.875rem
+}
+.error-page__not-exist {
+  font-size: 1.5rem;
+  line-height: normal;
+  font-weight: 500
+}
+.error-page__not-exist:not(:last-child) {
+  margin-bottom: 2.5rem
+}
+.error-page__link {
+  color: #00f;
+  text-decoration: underline
+}
+.error-page__link:hover {
+  text-decoration: none
 }
