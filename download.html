@@ -2,13 +2,37 @@
 <html lang="en">
 
 <head>
-	<title>Download</title>
+	<title>Download Electrum - The Fast and Secure Bitcoin Wallet</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240907152400">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="author" content="Electrum.org">
+	<meta name="copyright" content="Copyright (c) 2024 Electrum">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240908172740">
+	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
+	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicon/16x16.webp">
+	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicon/32x32.webp">
+	<link rel="icon" type="image/webp" sizes="48x48" href="img/favicon/48x48.webp">
+	<link rel="icon" type="image/webp" sizes="96x96" href="img/favicon/96x96.webp">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/180x180.webp">
+	<link rel="icon" type="image/webp" sizes="400x400" href="img/favicon/400x400.webp">
+	<link rel="canonical" href="https://electrum.org/download">
+	<meta name="robots" content="follow, index, max-snippet:-1, max-image-preview:large">
+	<meta name="description" content="Download Electrum, the lightweight and secure Bitcoin wallet for your desktop and mobile devices. Easy setup and advanced security for Bitcoin management.">
+	<meta name="keywords" content="download Electrum, Bitcoin wallet download, fast Bitcoin wallet, secure Bitcoin wallet, Bitcoin wallet for Windows, Mac Bitcoin wallet, Linux Bitcoin wallet, cryptocurrency wallet download.">
+	<meta property="og:site_name" content="Electrum">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://electrum.org/download">
+	<meta property="og:title" content="Download Electrum - The Fast and Secure Bitcoin Wallet">
+	<meta property="og:description" content="Download Electrum, the lightweight and secure Bitcoin wallet for your desktop and mobile devices. Easy setup and advanced security for Bitcoin management.">
+	<meta property="og:image" content="img/favicon/400x400.webp">
+	<meta property="og:image:width" content="400">
+	<meta property="og:image:height" content="400">
+	<meta property="og:image:alt" content="Logotype Electrum">
+	<meta property="og:image:type" content="image/webp">
+	<meta property="twitter:title" content="Download Electrum - The Fast and Secure Bitcoin Wallet">
+	<meta property="twitter:description" content="Download Electrum, the lightweight and secure Bitcoin wallet for your desktop and mobile devices. Easy setup and advanced security for Bitcoin management.">
+	<meta property="twitter:image" content="img/favicon/400x400.webp">
+	<meta property="twitter:card" content="summary">
 </head>
 
 <body>
@@ -16,7 +40,7 @@
 		<header class="header">
 			<div class="header__container">
 				<a class="header__logo logo" href="home.html">
-					<img class="logo__text" src="img/electrum_text.webp" alt="Electrum text">
+					<img class="logo__text" src="img/electrum.webp" alt="Electrum text">
 					<img class="logo__icon" src="img/electrum_icon.webp" alt="Electrum logo">
 					<span class="logo__subtitle">Bitcoin Wallet</span>
 				</a>
@@ -33,27 +57,39 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="release">
+			<article class="release" itemscope itemtype="https://schema.org/Article">
 				<div class="release__container">
 					<span class="warning"><img src="img/icons/warning.svg" alt="Warning icon">&nbsp; Warning: Do not download Electrum from another source than electrum.org. Verify GPG signatures.</span>
 					<h1 class="release__title title">DOWNLOADS <img src="img/icons/download.svg" alt="Download icon"></h1>
-					<h2 class="release__subtitle">Latest release: Electrum-4.5.5</h2>
+					<h2 class="release__subtitle" itemprop="headline">Latest release: Electrum-4.5.5</h2>
 					<div class="release__links">
-						<a href="https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES">Release notes</a>
+						<a href="https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES" itemprop="url">Release notes</a>
 						-
-						<a href="https://download.electrum.org">Previous releases</a>
+						<a href="https://download.electrum.org" itemprop="url">Previous releases</a>
 					</div>
-					<div class="release__text">
+					<div class="release__text" itemprop="description">
 						<p>
 							Our executables are reproducible, and are signed independently by several builders.<br>
 							The current executables have been signed by
-							<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc">ThomasV</a>,
-							<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/sombernight_releasekey.asc">SomberNight</a>,
-							<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/Emzy.asc">Emzy</a>.
+							<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc" itemprop="url">
+									<span itemprop="name">ThomasV</span>
+								</a>
+							</span>,
+							<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/sombernight_releasekey.asc" itemprop="url">
+									<span itemprop="name">SomberNight</span>
+								</a>
+							</span>,
+							<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/Emzy.asc" itemprop="url">
+									<span itemprop="name">Emzy</span>
+								</a>
+							</span>.
 						</p>
 					</div>
 				</div>
-			</section>
+			</article>
 			<section class="downloads">
 				<div class="downloads__container">
 					<h3 class="downloads__title title--smaller">Sources and Binaries</h3>
@@ -62,7 +98,7 @@
 							<tr>
 								<td>
 									<div class="downloads__label">
-										<img src="img/icons/python.svg">Python
+										<img src="img/icons/python.svg" alt="Python icon">Python
 										<span style="font-size:80%">(3.8 and higher)</span>
 									</div>
 								</td>
@@ -76,7 +112,7 @@
 							<tr>
 								<td>
 									<div class="downloads__label">
-										<img src="img/icons/linux.svg">Linux
+										<img src="img/icons/linux.svg" alt="Linux icon">Linux
 									</div>
 								</td>
 								<td>
@@ -89,7 +125,7 @@
 							<tr>
 								<td rowspan="3">
 									<div class="downloads__label">
-										<img src="img/icons/window.svg">Windows
+										<img src="img/icons/window.svg" alt="Windows icon">Windows
 										<span style="font-size:80%">(8.1 and higher)</span>
 									</div>
 								</td>
@@ -120,7 +156,7 @@
 							<tr>
 								<td>
 									<div class="downloads__label">
-										<img src="img/icons/apple.svg">macOS
+										<img src="img/icons/apple.svg" alt="macOS icon">macOS
 										<span style="font-size:80%">(10.13 and higher)</span>
 									</div>
 								</td>
@@ -134,7 +170,7 @@
 							<tr>
 								<td rowspan="3">
 									<div class="downloads__label">
-										<img src="img/icons/android.svg">Android
+										<img src="img/icons/android.svg" alt="Android icon">Android
 										<span style="font-size:80%">(6.0 and higher)</span>
 									</div>
 									<span style="font-size:80%">(available on <a href="https://play.google.com/store/apps/details?id=org.electrum.electrum">Google Play)</a></span>
@@ -174,7 +210,7 @@
 							<tr>
 								<td rowspan="5">
 									<div class="downloads__label">
-										<img src="img/icons/linux.svg">Linux
+										<img src="img/icons/linux.svg" alt="Linux icon">Linux
 									</div>
 								</td>
 								<td>
@@ -223,10 +259,10 @@
 					</table>
 				</div>
 			</section>
-			<article class="article-verify article">
+			<article class="article-verify article" itemscope itemtype="https://schema.org/Article">
 				<div class="article__container">
-					<h3 class="article__title title--smaller">How to verify GPG signatures</h3>
-					<div class="article__text">
+					<h3 class="article__title title--smaller" itemprop="headline">How to verify GPG signatures</h3>
+					<div class="article__text" itemprop="description">
 						<p>
 							GPG signatures are a proof that distributed files have been signed
 							by the owner of the signing key. For example, if this website was
@@ -239,20 +275,20 @@
 						<p>
 							In order to be able to verify GPG signatures, you need to import
 							the public key of the signer. Electrum binaries are signed with
-							ThomasV's <a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc">public key</a>.
+							ThomasV's <a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc" itemprop="url">public key</a>.
 							On Linux, you can import that key using the following
 							command: <code>gpg --import ThomasV.asc</code>. When you import a
 							key, you should check its fingerprint using independent sources,
-							such as <a href="https://www.youtube.com/watch?v=hjYCXOyDy7Y">here</a>,
-							or use the <a href="https://en.wikipedia.org/wiki/Web_of_trust">Web of Trust</a>.
+							such as <a href="https://www.youtube.com/watch?v=hjYCXOyDy7Y" itemprop="url">here</a>,
+							or use the <a href="https://en.wikipedia.org/wiki/Web_of_trust" itemprop="url">Web of Trust</a>.
 						</p>
 					</div>
 				</div>
 			</article>
-			<article class="article-notes article">
+			<article class="article-notes article" itemscope itemtype="https://schema.org/Article">
 				<div class="article__container">
-					<h3 class="article__title title--smaller">Notes for Windows users</h3>
-					<div class="article__text">
+					<h3 class="article__title title--smaller" itemprop="headline">Notes for Windows users</h3>
+					<div class="article__text" itemprop="description">
 						<p>
 							Electrum binaries are often flagged by various anti-virus
 							software. There is nothing we can do about it, so please stop
@@ -304,7 +340,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240907152400"></script>
+	<script src="js/app.min.js?_v=20240908172740"></script>
 </body>
 
 </html>

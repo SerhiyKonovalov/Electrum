@@ -2,13 +2,37 @@
 <html lang="en">
 
 <head>
-	<title>About</title>
+	<title>About Electrum - Trusted Bitcoin Wallet Since 2011</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240907152400">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="author" content="Electrum.org">
+	<meta name="copyright" content="Copyright (c) 2024 Electrum">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240908172740">
+	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
+	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicon/16x16.webp">
+	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicon/32x32.webp">
+	<link rel="icon" type="image/webp" sizes="48x48" href="img/favicon/48x48.webp">
+	<link rel="icon" type="image/webp" sizes="96x96" href="img/favicon/96x96.webp">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/180x180.webp">
+	<link rel="icon" type="image/webp" sizes="400x400" href="img/favicon/400x400.webp">
+	<link rel="canonical" href="https://electrum.org/about">
+	<meta name="robots" content="follow, index, max-snippet:-1, max-image-preview:large">
+	<meta name="description" content="Learn more about Electrum, a secure and lightweight Bitcoin wallet trusted by users since 2011. Discover why Electrum is the preferred choice for fast Bitcoin transactions.">
+	<meta name="keywords" content="About Electrum, Bitcoin wallet history, Electrum wallet 2011, secure Bitcoin wallet, Electrum features, Bitcoin wallet overview">
+	<meta property="og:site_name" content="Electrum">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://electrum.org/about">
+	<meta property="og:title" content="About Electrum - Trusted Bitcoin Wallet Since 2011">
+	<meta property="og:description" content="Learn more about Electrum, a secure and lightweight Bitcoin wallet trusted by users since 2011. Discover why Electrum is the preferred choice for fast Bitcoin transactions.">
+	<meta property="og:image" content="img/favicon/400x400.webp">
+	<meta property="og:image:width" content="400">
+	<meta property="og:image:height" content="400">
+	<meta property="og:image:alt" content="Logotype Electrum">
+	<meta property="og:image:type" content="image/webp">
+	<meta property="twitter:title" content="About Electrum - Trusted Bitcoin Wallet Since 2011">
+	<meta property="twitter:description" content="Learn more about Electrum, a secure and lightweight Bitcoin wallet trusted by users since 2011. Discover why Electrum is the preferred choice for fast Bitcoin transactions.">
+	<meta property="twitter:image" content="img/favicon/400x400.webp">
+	<meta property="twitter:card" content="summary">
 </head>
 
 <body>
@@ -16,7 +40,7 @@
 		<header class="header">
 			<div class="header__container">
 				<a class="header__logo logo" href="home.html">
-					<img class="logo__text" src="img/electrum_text.webp" alt="Electrum text">
+					<img class="logo__text" src="img/electrum.webp" alt="Electrum text">
 					<img class="logo__icon" src="img/electrum_icon.webp" alt="Electrum logo">
 					<span class="logo__subtitle">Bitcoin Wallet</span>
 				</a>
@@ -36,27 +60,26 @@
 			<div class="about">
 				<div class="about__container">
 					<span class="warning"><img src="img/icons/warning.svg" alt="Warning icon">&nbsp; Warning: Do not download Electrum from another source than electrum.org. Verify GPG signatures.</span>
-					<article class="about__article">
-						<h1 class="about__title title">ABOUT ELECTRUM <img src="img/icons/about.svg" alt="About icon"></h1>
-						<div class="about__text">
+					<article class="about__article" itemscope itemtype="https://schema.org/Article">
+						<h1 class="about__title title" itemprop="headline">ABOUT ELECTRUM <img src="img/icons/about.svg" alt="About icon"></h1>
+						<div class="about__text" itemprop="description">
 							<p>
 								Electrum was created by Thomas Voegtlin in November 2011.<br>
 								Since then,
-								<a href="https://github.com/spesmilo/electrum/graphs/contributors">various developers</a>
+								<a href="https://github.com/spesmilo/electrum/graphs/contributors" itemprop="url">various developers</a>
 								have contributed to its source code.
 							</p>
 						</div>
 					</article>
-
-					<article class="about__article">
-						<h2 class="about__title title--smaller">Developers with Github write access</h2>
-						<ul class="about__list">
+					<article class="about__article" itemscope itemtype="https://schema.org/Article">
+						<h2 class="about__title title--smaller" itemprop="headline">Developers with Github write access</h2>
+						<ul class="about__list" itemprop="description">
 							<li class="about__item">
 								Thomas Voegtlin
-								<a href="https://github.com/ecdsa">[github]</a>
+								<a href="https://github.com/ecdsa" itemprop="url">[github]</a>
 								<ul class="about__sub-list">
 									<li class="about__sub-item">
-										<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc">[gpg
+										<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc" itemprop="url">[gpg
 											key]</a>
 										<code>6694 D8DE 7BE8 EE56 31BE D950 2BD5 824B 7F94 70E6</code>
 									</li>
@@ -64,15 +87,15 @@
 							</li>
 							<li class="about__item">
 								SomberNight
-								<a href="https://github.com/SomberNight">[github]</a>
+								<a href="https://github.com/SomberNight" itemprop="url">[github]</a>
 								<ul class="about__sub-list">
 									<li class="about__sub-item">
-										<a href="https://github.com/spesmilo/electrum/blob/master/pubkeys/sombernight.asc">[gpg key
+										<a href="https://github.com/spesmilo/electrum/blob/master/pubkeys/sombernight.asc" itemprop="url">[gpg key
 											for identity/git commits]</a>
 										<code>4AD6 4339 DFA0 5E20 B3F6 AD51 E7B7 48CD AF5E 5ED9</code>
 									</li>
 									<li class="about__sub-item">
-										<a href="https://github.com/spesmilo/electrum/blob/master/pubkeys/sombernight_releasekey.asc">[gpg
+										<a href="https://github.com/spesmilo/electrum/blob/master/pubkeys/sombernight_releasekey.asc" itemprop="url">[gpg
 											key for releases]</a>
 										<code>0EED CFD5 CAFB 4590 6734 9B23 CA9E EEC4 3DF9 11DC</code>
 									</li>
@@ -80,15 +103,14 @@
 							</li>
 						</ul>
 					</article>
-
-					<article class="about__article">
-						<h2 class="about__title title--smaller">Website and release security</h2>
-						<div class="about__text">
+					<article class="about__article" itemscope itemtype="https://schema.org/Article">
+						<h2 class="about__title title--smaller" itemprop="headline">Website and release security</h2>
+						<div class="about__text" itemprop="description">
 							<p>
 								Developers do not have direct unilateral write access to this website.
 								Changes must be signed by both
-								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc">ThomasV</a> and
-								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/sombernight_releasekey.asc">SomberNight</a>,
+								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc" itemprop="url">ThomasV</a> and
+								<a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/sombernight_releasekey.asc" itemprop="url">SomberNight</a>,
 								automatically checked by a script before made publicly visible.
 								Release distributables are reproducible, and need to be signed by at least the same two keys,
 								before the script exposes them to the webserver.<br>
@@ -129,7 +151,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240907152400"></script>
+	<script src="js/app.min.js?_v=20240908172740"></script>
 </body>
 
 </html>
