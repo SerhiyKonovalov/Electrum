@@ -7,7 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="author" content="Electrum.org">
 	<meta name="copyright" content="Copyright (c) 2024 Electrum">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240908172740">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240910211415">
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
 	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicon/16x16.webp">
 	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicon/32x32.webp">
@@ -62,9 +62,9 @@
 					<span class="warning"><img src="img/icons/warning.svg" alt="Warning!">&nbsp; Warning: Do not download Electrum from another source than electrum.org. Verify GPG signatures.</span>
 					<h1 class="hero__title" itemprop="headline"><span>ELECTRUM</span> BITCOIN WALLET</h1>
 					<div class="hero__text" itemprop="description">
-						<p>Electrum - is a simple, but powerful Litecoin wallet. A unique secret phrase (or “seed”) leaves intruders stranded and your peace of mind intact.</p>
-						<p>Keep it on paper, or in your head... and never worry about losing your litecoins to theft or hardware failure.</p>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nisi, itaque atque facere iste rem, quis, maxime dolorem hic odio magni! Voluptate necessitatibus error delectus iste optio neque natus quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nisi, itaque atque facere iste rem, quis, maxime dolorem hic odio magni! Voluptate necessitatio neque natus quia?</p>
+						<p>Electrum is a simple yet powerful wallet designed to keep your funds secure. With a unique secret phrase (or “seed”), intruders are locked out, allowing you to maintain full control and peace of mind.</p>
+						<p>Keep the phrase stored safely, either on paper or memorized, and rest assured knowing your Litecoins are protected from theft or hardware failures.</p>
+						<p>Whether you’re a seasoned trader or new to cryptocurrency, Electrum’s streamlined interface provides everything you need to manage your coins effortlessly. The wallet is built with security in mind, combining convenience with robust protection to ensure your assets are always safe.</p>
 					</div>
 				</div>
 			</article>
@@ -185,74 +185,107 @@
 			<section class="advantages" itemscope itemtype="https://schema.org/Article">
 				<div class="advantages__container">
 					<h2 class="advantages__title" itemprop="headline">OUR <span>ADVANTAGES</span></h2>
-					<div class="advantages__items">
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/01.webp" alt="Advantage icon" itemprop="image">
+					<ul class="advantages__list">
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">Safe</h4>
+								</div>
+								<img src="img/advantages/01.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
 							</div>
-							<h5 class="item-advantages__title">Safe</h5>
-							<div class="item-advantages__text">Your private keys are encrypted and never leave your computer.</div>
-						</div>
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/02.webp" alt="Advantage icon" itemprop="image">
+							<div class="item-advantages__text">
+								<p>Your private keys are securely encrypted and remain exclusively on your device. This ensures complete control over your funds without exposing sensitive information to external servers. Rest assured, your assets are protected from unauthorized access.</p>
 							</div>
-							<h5 class="item-advantages__title">Forgiving</h5>
-							<div class="item-advantages__text">Your funds can be recovered from a secret phrase.</div>
-						</div>
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/03.webp" alt="Advantage icon" itemprop="image">
+						</li>
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">Forgiving</h4>
+								</div>
+								<img src="img/advantages/02.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
 							</div>
-							<h5 class="item-advantages__title">Instant On</h5>
-							<div class="item-advantages__text">Electrum is fast, because it uses servers that index the Bitcoin blockchain.</div>
-						</div>
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/04.webp" alt="Advantage icon" itemprop="image">
+							<div class="item-advantages__text">
+								<p>Recover your funds with ease using a unique secret phrase, even if you lose access to your wallet. This added layer of recovery ensures that accidental loss of access doesn't result in a permanent loss of funds.</p>
 							</div>
-							<h5 class="item-advantages__title">No Lock-In</h5>
-							<div class="item-advantages__text">You can export your private keys and use them in other Bitcoin clients.</div>
-						</div>
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/05.webp" alt="Advantage icon" itemprop="image">
+						</li>
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">Instant On</h4>
+								</div>
+								<img src="img/advantages/03.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
 							</div>
-							<h5 class="item-advantages__title">No Downtimes</h5>
-							<div class="item-advantages__text">Electrum servers are decentralized and redundant. Your wallet is never down.</div>
-						</div>
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/06.webp" alt="Advantage icon" itemprop="image">
+							<div class="item-advantages__text">
+								<p>Electrum offers a lightning-fast experience by utilizing servers that efficiently index the Bitcoin blockchain. This ensures you can get started immediately without waiting for lengthy blockchain downloads, offering a smooth and seamless user experience.</p>
 							</div>
-							<h5 class="item-advantages__title">Proof Checking</h5>
-							<div class="item-advantages__text">Electrum Wallet verifies all the transactions in your history using SPV.</div>
-						</div>
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/07.webp" alt="Advantage icon" itemprop="image">
+						</li>
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">No Lock-In</h4>
+								</div>
+								<img src="img/advantages/04.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
 							</div>
-							<h5 class="item-advantages__title">Cold Storage</h5>
-							<div class="item-advantages__text">Keep your private keys offline, and go online with a watching-only wallet.</div>
-						</div>
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/08.webp" alt="Advantage icon" itemprop="image">
+							<div class="item-advantages__text">
+								<p>Enjoy full flexibility with Electrum, as your private keys can be exported and used with other Bitcoin clients. You’re never tied down to one platform, giving you the freedom to switch or back up your wallet effortlessly.</p>
 							</div>
-							<h5 class="item-advantages__title">Multisig</h5>
-							<div class="item-advantages__text">Split the permission to spend your coins between several wallets.</div>
-						</div>
-						<div class="advantages__item item-advantages" itemprop="description">
-							<div class="item-advantages__icon">
-								<img src="img/advantages/09.webp" alt="Advantage icon" itemprop="image">
+						</li>
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">No Downtimes</h4>
+								</div>
+								<img src="img/advantages/05.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
 							</div>
-							<h5 class="item-advantages__title">Add-ons</h5>
-							<div class="item-advantages__text">Electrum supports third-party plugins: Multisig services, Hardware wallets, etc.</div>
-						</div>
-					</div>
-					<div class="download-button">
-						<a href="download.html" class="download-button__link" itemprop="url">Download Electrum</a>
-					</div>
+							<div class="item-advantages__text">
+								<p>Electrum relies on a decentralized and redundant network of servers, ensuring constant access to your wallet. With no single point of failure, your wallet is always available, offering unparalleled reliability.</p>
+							</div>
+						</li>
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">Proof Checking</h4>
+								</div>
+								<img src="img/advantages/06.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
+							</div>
+							<div class="item-advantages__text">
+								<p>Electrum uses Simplified Payment Verification (SPV) to independently verify all your transaction history. This ensures that your transactions are valid and confirms their integrity without requiring you to trust third parties.</p>
+							</div>
+						</li>
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">Cold Storage</h4>
+								</div>
+								<img src="img/advantages/07.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
+							</div>
+							<div class="item-advantages__text">
+								<p>Keep your private keys offline with Electrum’s cold storage feature, enhancing security by keeping your assets out of reach from online threats. Use a watching-only wallet to monitor transactions without exposing sensitive information.</p>
+							</div>
+						</li>
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">Multisig</h4>
+								</div>
+								<img src="img/advantages/08.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
+							</div>
+							<div class="item-advantages__text">
+								<p>Secure your funds further by splitting spending permissions across multiple wallets. Multisignature (multisig) ensures that no single wallet can spend your funds without approval from other wallets, providing an extra layer of protection.</p>
+							</div>
+						</li>
+						<li class="advantages__item item-advantages" itemprop="description">
+							<div class="item-advantages__header">
+								<div class="item-advantages__label">
+									<h4 class="item-advantages__title">Add-ons</h4>
+								</div>
+								<img src="img/advantages/09.webp" alt="Advantages icon" class="item-advantages__icon" itemprop="image">
+							</div>
+							<div class="item-advantages__text">
+								<p>Expand your wallet’s functionality with third-party plugins, supporting features like multisig services and hardware wallets. Electrum’s flexibility allows you to customize your experience based on your specific needs and preferences.</p>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</section>
 		</main>
@@ -264,7 +297,7 @@
 							<img src="img/electrum_icon.webp" alt="Logo">
 						</a>
 						<div class="footer__text">
-							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat officia rem ducimus.</p>
+							<p>Powered by Electrum – A fast, secure, and reliable Bitcoin wallet for all your cryptocurrency needs. Keep your assets safe with cutting-edge technology and user-focused design.</p>
 						</div>
 					</div>
 					<div class="footer__follow">
@@ -287,7 +320,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240908172740"></script>
+	<script src="js/app.min.js?_v=20240910211415"></script>
 </body>
 
 </html>

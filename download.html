@@ -7,7 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="author" content="Electrum.org">
 	<meta name="copyright" content="Copyright (c) 2024 Electrum">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240908172740">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240910211415">
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
 	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicon/16x16.webp">
 	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicon/32x32.webp">
@@ -264,23 +264,15 @@
 					<h3 class="article__title title--smaller" itemprop="headline">How to verify GPG signatures</h3>
 					<div class="article__text" itemprop="description">
 						<p>
-							GPG signatures are a proof that distributed files have been signed
-							by the owner of the signing key. For example, if this website was
-							compromised and the original Electrum files had been replaced,
-							signature verification would fail, because the attacker would not
-							be able to create valid signatures. (Note that an attacker would be
-							able to create valid hashes, this is why we do not publish hashes
-							of our binaries here, it does not bring any security).
+							GPG signatures ensure that files are signed by the rightful owner of the signing key. If the website were compromised and malicious files were uploaded, the signature verification would fail, as the attacker wouldn’t be able to generate valid signatures. It's important to note that attackers can create valid hashes, which is why we don’t publish binary hashes here, as they don’t provide additional security.
 						</p>
 						<p>
-							In order to be able to verify GPG signatures, you need to import
-							the public key of the signer. Electrum binaries are signed with
-							ThomasV's <a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc" itemprop="url">public key</a>.
-							On Linux, you can import that key using the following
-							command: <code>gpg --import ThomasV.asc</code>. When you import a
-							key, you should check its fingerprint using independent sources,
-							such as <a href="https://www.youtube.com/watch?v=hjYCXOyDy7Y" itemprop="url">here</a>,
-							or use the <a href="https://en.wikipedia.org/wiki/Web_of_trust" itemprop="url">Web of Trust</a>.
+							To verify GPG signatures, you need to import the public key of the signer.
+							Electrum binaries are signed with ThomasV's <a href="https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc" itemprop="url">public key</a>.
+							On Linux, you can import
+							the key with this command: <code>gpg --import ThomasV.asc</code>. After importing, always verify
+							the key's fingerprint using independent sources, such as <a href="https://www.youtube.com/watch?v=hjYCXOyDy7Y" itemprop="url">here</a>
+							or through the <a href="https://en.wikipedia.org/wiki/Web_of_trust" itemprop="url">Web of Trust</a>.
 						</p>
 					</div>
 				</div>
@@ -290,20 +282,10 @@
 					<h3 class="article__title title--smaller" itemprop="headline">Notes for Windows users</h3>
 					<div class="article__text" itemprop="description">
 						<p>
-							Electrum binaries are often flagged by various anti-virus
-							software. There is nothing we can do about it, so please stop
-							reporting that to us. Anti-virus software uses heuristics in order
-							to determine if a program is malware, and that often results in
-							false positives. If you trust the developers of the project, you
-							can verify the GPG signature of Electrum binaries, and safely
-							ignore any anti-virus warnings. If you do not trust the developers
-							of the project, you should build the binaries yourself, or run the
-							software from source. Finally, if you are really concerned about
-							malware, you should not use an operating system that relies on
-							anti-virus software.
+							Electrum binaries are often flagged by various antivirus programs, but this is a common false positive due to the heuristics they use. Please avoid reporting this issue to us. If you trust the developers, you can safely verify the GPG signature and ignore the antivirus warnings. If you have doubts, you can either build the binaries yourself or run the software from source. For those concerned about malware, using an operating system that doesn’t rely on antivirus software may be a better option.
 						</p>
 						<p>
-							Old versions of Windows might need to install the KB2999226 Windows update.
+							Older versions of Windows might require the KB2999226 update to run Electrum.
 						</p>
 					</div>
 				</div>
@@ -317,7 +299,7 @@
 							<img src="img/electrum_icon.webp" alt="Logo">
 						</a>
 						<div class="footer__text">
-							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat officia rem ducimus.</p>
+							<p>Powered by Electrum – A fast, secure, and reliable Bitcoin wallet for all your cryptocurrency needs. Keep your assets safe with cutting-edge technology and user-focused design.</p>
 						</div>
 					</div>
 					<div class="footer__follow">
@@ -340,7 +322,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240908172740"></script>
+	<script src="js/app.min.js?_v=20240910211415"></script>
 </body>
 
 </html>
